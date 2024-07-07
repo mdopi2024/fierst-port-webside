@@ -1,0 +1,85 @@
+
+
+
+.open-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* nav ber */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 50px;
+}
+.mary{
+    font-size: 45px;
+    font-weight: 800;
+  
+}
+.mary>span{
+    color: #FD6E0A;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #474747;
+    margin-right: 51px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 18px 35px;
+    background-color: #FD6E0A;
+    color: white;
+    border-radius: 5px;
+    border: none;
+
+}
+.header{
+    background-image: url(../developer.png),url(../header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+}
+/* banner design */
+.h3{
+    font-size: 45px;
+    font-weight: bold;
+    color: #474747;
+}
+.mary-2{
+    font-size: 85px;
+    font-weight: bold;
+    color: #474747;
+}
+.para{
+    font-size: 18px;
+    color: #757575;
+}
+.hardy{
+    width: 584px;
+    height: 676px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+
+.banner-content{
+    width: 585;
+    height: 356;
+ 
+
+}
